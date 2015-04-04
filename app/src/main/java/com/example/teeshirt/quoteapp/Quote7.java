@@ -1,9 +1,11 @@
 package com.example.teeshirt.quoteapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class Quote7 extends ActionBarActivity {
@@ -35,5 +37,10 @@ public class Quote7 extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void buttonClick(View view){
+        Intent intent = new Intent(Quote7.this, Quote8.class);
+        startActivity(intent);
     }
 }

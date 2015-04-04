@@ -40,7 +40,7 @@ public class Quote5 extends ActionBarActivity {
     }
 
     public void buttonClick(View view){
-        Intent intent = new Intent(Quote5.this, MainActivity.class);
+        Intent intent = new Intent(Quote5.this, Quote6.class);
         startActivity(intent);
     }
 }
